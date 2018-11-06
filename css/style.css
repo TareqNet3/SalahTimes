@@ -1,0 +1,122 @@
+body
+{
+	background-color: #187700;
+	text-align: center;
+}
+
+span
+{
+	width: 80px;
+	float: right;
+}
+
+.icon
+{
+	width: 128px;
+	height: 128px;
+}
+
+.logo
+{
+	height: 100px;
+	width: 206px;
+}
+
+.master
+{
+	padding: 10px;
+	background-color: #B8F788;
+	border-radius: 13px 13px 13px 13px;
+	border: solid 0px #000;
+}
+
+.main
+{
+	width: 275px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.times
+{
+	margin: 10px auto;
+}
+
+.time-line
+{
+	color: #250;
+	text-shadow: 1px 1px 3px #250;
+	padding: 3px;
+	margin-bottom: 10px;
+	border: solid 1px #338D00;
+	-webkit-border-radius: 13px 13px 13px 13px;
+	-moz-border-radius: 13px 13px 13px 13px;
+	border-radius: 13px 13px 13px 13px;
+	background-color: #EFE;
+}
+
+.time-name
+{
+	width: 70px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 18px;
+}
+.time-value
+{
+	width: 120px;
+	display: inline-block;
+}
+
+.time-line-current
+{
+	background-color: #FDD!important;
+	border: solid 1px #8D0000!important;
+	color: #8D0000;
+}
+
+.time-to-next
+{
+	width: 160px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.time-to-next-holder
+{
+	color: #FF0;
+	padding: 3px;
+	text-shadow: 1px 1px 1px #000;
+	margin-bottom: 10px;
+	border: solid 1px #979700;
+	-webkit-border-radius: 13px 13px 13px 13px;
+	border-radius: 13px 13px 13px 13px;
+	background-color: #FFFFE7;
+}
+
+.time-to-next-name
+{
+	width: 50px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.time-to-next-name-value
+{
+	width: 90px;
+	display: inline-block;
+}
+
+.footer
+{
+	color: #500;
+	text-shadow: 1px 1px 2px #995B5B;
+}
+
+.footer a
+{
+	text-decoration: none;
+	color: #500;
+	text-shadow: 1px 1px 2px #995B5B;
+}

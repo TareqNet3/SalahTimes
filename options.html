@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/options.css" />
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<title>أوقات الصلاة - الإعدادات</title>
+	</head>
+	<body>
+
+		<div class="maia-header">
+			<div class="maia-aux">
+				<h1>أوقات الصلاة</h1>
+			</div>
+		</div>
+
+		<div id="maia-main">
+			<h1>
+				<span i18n-content="options_header">الإعدادات</span>
+			</h1>
+
+			<div class="space-smaller"></div>
+
+			<fieldset>
+				<legend>الأذان:</legend>
+				<p>
+					<input id="athan" type="checkbox" checked="checked" />
+					<label for="athan">
+						<span>تشغيل الأذان</span>
+					</label>
+				</p>
+			</fieldset>
+
+			<div class="space-small"></div>
+
+			<fieldset>
+				<legend>التنبيهات:</legend>
+				<p>
+					<input id="NotificationPopup" name="Notification" type="radio" value="PopupNotification" checked="checked" />
+					<label for="NotificationPopup">
+						<span>نافذة الأذان</span>
+					</label>
+				</p>
+				<p>
+					<input id="NotificationWebkit" name="Notification" type="radio" value="WebkitNotification" />
+					<label for="NotificationWebkit">
+						<span>تنبيه</span>
+					</label>
+				</p>
+				<p>
+					<input id="NotificationNone" name="Notification" type="radio" value="None" />
+					<label for="NotificationNone">
+						<span>بدون تنبيه</span>
+					</label>
+				</p>
+			</fieldset>
+
+			<div class="space-small"></div>
+
+			<fieldset>
+				<legend>المكان:</legend>
+				<p>
+					<label for="Country">
+						<span class="span-select">البلد</span>
+					</label>
+					<select id="Country">
+						<option value="Syria">سورية</option>
+					</select>
+				</p>
+				<p>
+					<label for="City">
+						<span class="span-select">المدينة</span>
+					</label>
+					<select id="City">
+						<option value="Damascus">دمشق</option>
+					</select>
+				</p>
+				<p>
+					<input id="summer-time" type="checkbox" checked="checked" />
+					<label for="summer-time">
+						<span>التوقيت الصيفي</span>
+					</label>
+				</p>
+			</fieldset>
+
+			<div class="space-small"></div>
+
+			<button id="save">حفظ</button>
+		</div>
+
+		<div class="maia-signature"></div>
+
+		<div class="maia-footer" id="maia-footer">
+			<div class="maia-footer-global">
+				<div class="maia-aux">
+					<a href="http://tareq.tk/labs" target="_blank">Tareq.tk</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="ShowNotification">
+			تم الحفظ بنجاح
+		</div>
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/options.js"></script>
+	</body>
+</html>

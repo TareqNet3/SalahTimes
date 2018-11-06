@@ -1,0 +1,133 @@
+html, body, div, h1
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	direction: rtl;
+}
+
+h1 span
+{
+	color: #444;
+	font-size: 20px;
+}
+
+h2
+{
+	color: #63666A;
+	text-shadow: 1px 1px 4px #63666A;
+
+}
+
+.maia-header
+{
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#FAFAFA),color-stop(1,#F5F5F5));
+	background: linear-gradient(top,#FAFAFA,#F5F5F5);
+	border-bottom: 1px solid #EEE;
+	color: #444;
+	min-height: 44px;
+	padding: 14px 15px 13px;
+}
+
+.maia-aux
+{
+	margin: auto;
+	max-width: 978px;
+}
+
+.maia-aux h1
+{
+	color: #63666A;
+	text-shadow: 1px 1px 4px #63666A;
+}
+
+#maia-main
+{
+	clear: both;
+	margin-top: 30px;
+	margin: auto;
+	margin-top: 30px;
+	margin-left: 136px;
+	margin-right: 136px;
+	max-width: 978px;
+}
+
+.maia-signature
+{
+	clear: both;
+	margin: 20px auto 0;
+	min-height: 4px;
+}
+
+.maia-footer
+{
+	background: #F5F5F5;
+	clear: both;
+	margin: 0 auto;
+}
+
+.maia-footer-global
+{
+	text-align: center;
+	border-top: 1px solid #EEE;
+	line-height: 2.19;
+	padding: 10px 15px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #500;
+	text-shadow: 1px 1px 2px #995B5B;
+}
+
+fieldset
+{
+	border: solid 1px #63666A;
+	box-shadow: 3px 3px 4px #63666A;
+}
+
+.space-small
+{
+	margin: 20px auto 0;
+}
+
+.space-smaller
+{
+	margin: 10px auto 0;
+}
+
+button
+{
+	margin-right: 20px;
+}
+
+#ShowNotification
+{
+	position: fixed;
+	display: none;
+	top: 82px;
+	left: 50%;
+	margin-left: -250px;
+	margin-left: -75px;
+	background-color: #F5F5F5;
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	border: 1px solid #EEE;
+}
+
+select
+{
+	width: 80px;
+}
+
+.span-select
+{
+	width: 50px;
+	float: right;
+}
